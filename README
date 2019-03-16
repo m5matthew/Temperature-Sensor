@@ -1,6 +1,5 @@
 NAME: Matthew Wang
 EMAIL: m5matthew@g.ucla.edu
-ID: 504984273
 
 ---------------
 Files Included
@@ -8,14 +7,14 @@ Files Included
 
 1. lab4c_tcp.c		Source code for TCP connection
 
-2. Makefile			Makefile that supports 'default', 'clean', and 'dist'
-					commands
+2. Makefile		Makefile that supports 'default', 'clean', and 'dist'
+			commands
 
-3. README			Description of files and other comments.
+3. README		Description of files and other comments.
 
-4. util.c			Source code for basic utility functions to simplify code
+4. util.c		Source code for basic utility functions to simplify code
 
-5. util.h 			Header file for 'util.c'
+5. util.h 		Header file for 'util.c'
 
 6. lab4c_tls.c		Source code for TLS connection
 
@@ -23,13 +22,13 @@ Files Included
 
 8. lab4c_tcp.h 		Header file for lab4c_tcp.c
 
-9. tcp.c			Source code that initializes tcp connection with server
+9. tcp.c		Source code that initializes tcp connection with server
 
-10. tcp.h			Header file for tcp.c
+10. tcp.h		Header file for tcp.c
 
-11. tls.c			Source code that initializes tls connection with server
+11. tls.c		Source code that initializes tls connection with server
 
-12. tls.h			Header file for tls.c
+12. tls.h		Header file for tls.c
 
 ----------------
 Other Comments
@@ -37,5 +36,3 @@ Other Comments
 In order for it to run on my beaglebone, I had to run the command:
 `sudo apt-get install libssl-dev`
 
-Other than that there are no other things that I would like to bring to the
-attention of the grader.
